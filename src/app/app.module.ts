@@ -11,6 +11,7 @@ import { RecipeItemComponent } from './pages/recipes/recipe-list/recipe-item/rec
 import { ShopingListComponent } from './pages/shoping-list/shoping-list.component';
 import { ShopingEditComponent } from './pages/shoping-list/shoping-edit/shoping-edit.component';
 import { ShopingItemComponent } from './pages/shoping-list/shoping-item/shoping-item.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ShopingItemComponent } from './pages/shoping-list/shoping-item/shoping-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
